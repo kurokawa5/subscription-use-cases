@@ -1,0 +1,5 @@
+com/stripe/sample/Server$CreateSubscriptionRequest.class
+com/stripe/sample/Server$CreateCustomerRequest.class
+com/stripe/sample/Server$CancelSubscriptionRequest.class
+com/stripe/sample/Server.class
+com/stripe/sample/Server$UpdateSubscriptionRequest.class

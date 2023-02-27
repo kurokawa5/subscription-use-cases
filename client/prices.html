@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Subscription prices</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8" />
+    <link href="css/base.css" rel="stylesheet" />
+    <script src="./prices.js" charset="UTF-8" defer></script>
+  </head>
+  <body>
+    <main>
+      <h1>Price List.</h1>
+
+      <div>
+        <button class="period-button" id="btn-1month" onclick="showPrices('month', 1)">1 month</button>
+        <button class="period-button" id="btn-6months" onclick="showPrices('month', 6)">6 months</button>
+        <button class="period-button" id="btn-1year" onclick="showPrices('year', 1)">1 year</button>
+      </div>
+
+      <div id="price-list" class="price-list">
+        loading...
+      </div>
+
+      <div>
+      <br>
+      (参考)IG アカウント追加はこちら<br>
+      https://buy.stripe.com/test_6oE4iX6Oj1Pgbv29AA
+      <br>
+      すでにプラン契約済みのお客様へ<br>
+      (参考)プラン変更はこちら<br>
+      https://billing.stripe.com/p/login/test_28o7ukgW1bsVeL6144
+      <br>
+    </div>
+
+    </main>
+  </body>
+</html>
